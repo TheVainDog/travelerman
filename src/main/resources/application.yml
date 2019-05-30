@@ -1,0 +1,14 @@
+server: 
+  servlet:
+    contextPath: /travelerman
+
+logging:
+ level:
+  web: TRACE
+
+spring:
+  data.mongodb:
+    uri: mongodb+srv://vaindogcluster-vshbz.mongodb.net
+    database: travelerman
+    username: vaindog
+    password: godniav
